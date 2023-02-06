@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-console": "off",
+    "quotes": 2,
+    "prefer-const": "off",
+    "no-multi-assign": "off",
+    "no-unused-vars": "off",
+    "import/extensions": "off",
+    "operator-linebreak": "off",
+    "no-plusplus": "off",
+    "no-param-reassign": "off"
+  }
+}
