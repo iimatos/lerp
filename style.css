@@ -54,7 +54,7 @@ li {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.2s ease-out;
+  transition: all 0.2s ease-out;
   will-change: object-position;
 }
 

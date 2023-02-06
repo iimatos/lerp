@@ -71,7 +71,11 @@ export default function Panning() {
       i.style.objectPosition = `${rangeStart}px center`;
     });
 
-    console.log(end);
+    let stopAnimation = parseInt(Number(start.toFixed(3)) + Math.abs(end))
+
+    images.forEach((i) => {
+      i.style.transform = stopAnimation != 0 ? `scale(0.8)` : `scale(1)`;
+    });
 
     requestAnimationFrame(animate);
   }
